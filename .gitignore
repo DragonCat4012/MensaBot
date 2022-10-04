@@ -1,0 +1,9 @@
+# Security
+/.env
+/.vscode
+**/config.json
+
+# Folders
+/node_modules
+/data
+/runtime
