@@ -1,0 +1,29 @@
+{
+    "name": "mensabot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "private": true,
+    "scripts": {
+        "start": "node src/index.js",
+        "build": "docker-compose up --build -d",
+        "logs:bot": "docker logs moodle_bot",
+        "logs:db": "docker logs moodle_db",
+        "test": "node src/test.mjs"
+    },
+    "repository": {
+        "type": "git",
+        "url": "github:AKORA-Studios/MoodleTelegramBot"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/AKORA-Studios/MoodleTelegramBot/issues"
+    },
+    "homepage": "https://github.com/AKORA-Studios/MoodleTelegramBot#readme",
+    "dependencies": {
+        "bent": "^7.3.12",
+        "telegraf": "^4.8.1"
+    }
+}

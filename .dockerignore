@@ -1,0 +1,17 @@
+# Security
+/.env
+/.vscode
+
+# Folders
+node_modules/
+# data/
+runtime/
+
+# Git
+.git/
+.gitignore
+.gitattributes/
+
+# Unimportant
+README.md
+.prettierrc
